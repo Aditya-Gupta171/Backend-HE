@@ -76,7 +76,7 @@ client-project/
 │   └── package-lock.json
 └── README.md
 ```
-Api endpoints:
+Api endpoints fro backend:
 
 {post}http://localhost:xxxx/api/register
 
@@ -85,3 +85,12 @@ Api endpoints:
 {post}http://localhost:xxxx/api/logout
 
 {get}http://localhost:xxxx/api/protected  
+
+
+if u want to test all the api's from frontend just setup  .env file in root src like this
+```
+REACT_APP_BACKEND_URL=http://localhost:xxxx/api
+```
+
+
+for running FRONTEND OR BACKEND :npm run dev
